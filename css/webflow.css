@@ -592,6 +592,8 @@ textarea.w-select {
 .w-hidden-main {
   display: none !important;
 }
+
+
 @media screen and (max-width: 991px) {
   .w-container {
     max-width: 728px;
