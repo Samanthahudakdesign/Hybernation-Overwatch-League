@@ -743,6 +743,53 @@
 }
 
 @media screen and (max-width: 991px) {
+  .heading {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 35px;
+    padding-top: 0px;
+    padding-left: 535px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+}
+@media screen and (max-width:1600px) {
+  .heading {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 35px;
+    padding-top: 0px;
+    padding-left: 335px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+}
+
+@media screen and (max-width:1200px) {
+  .heading {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 35px;
+    padding-top: 0px;
+    padding-left: 135px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+}
+
+@media screen and (max-width: 991px) {
   .cards-grid-container {
     grid-column-gap: 20px;
   }
@@ -1318,4 +1365,3 @@
     grid-column-end: span 1;
   }
 }
-
