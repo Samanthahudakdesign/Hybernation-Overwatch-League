@@ -789,6 +789,25 @@
 }
 }
 
+@media screen and (max-width:1000px) {
+  .heading {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 35px;
+    padding-top: 0px;
+    padding-left: 35px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+}
+
+
+
+
 @media screen and (max-width: 991px) {
   .cards-grid-container {
     grid-column-gap: 20px;
